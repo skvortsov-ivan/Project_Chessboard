@@ -1,9 +1,9 @@
-﻿using System;
-// 1. I asked Copilot how to create a ReadSize() method in a separate file in order to not clog my main.
+﻿// 1. I asked Copilot how to create a ReadSize() method in a separate file in order to not clog my main.
 // Copilot told me that it's not possible in C# without having the method within a class or a struct.
 // It suggested to put Readsize() inside a class which treats the said class and my main (Program) as "one unified class" by using the keyword "partial".
 // I made this change and in order to make the code work the class was put in the same namespace as my main.
 // This is the solution:
+using System;
 
 namespace Project_Chessboard
 { 
