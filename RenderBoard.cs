@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-// 2. I asked Copilot how I can make a RenderBoard class more flexible in the long-term, meaning that I can later use it to e.g. storing board state.
+﻿// 2. I asked Copilot how I can make a RenderBoard class more flexible in the long-term, meaning that I can later use it to e.g. storing board state.
 // The recommendation was that I would use public void Chessboard(int n) so that I can instantiate class when needed. 
 // This seems like good advice. It ensures that I will be able to instantiate the class when needed and print out what the board looks like after a player made a turn.
 // Copilot also told me that in order to associate a square to a piece I would need to create a Square class and respectively a Piece class. This suggestion will be a future project.
 // This is the solution:
+
+using System;
 
 namespace Project_Chessboard
 {
